@@ -1,0 +1,11 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-links{
+    display: flex;
+    margin-right: 50px;
+}
+.header-icon{
+    margin-left: 50px;
+}

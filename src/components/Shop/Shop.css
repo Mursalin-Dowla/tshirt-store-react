@@ -1,0 +1,32 @@
+.shop-each-item{
+    display: grid;
+    grid-template-columns: 1 1fr;
+   justify-items: center;
+    margin: 10px;
+    height: 420px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.shop-item-img img{
+    height: 300px;
+    width: 250px;
+}
+.shop-item-details{
+   align-items: center;
+}
+.shop-item-details p{
+    margin:0;
+}
+.shop-item-details-btn{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.shop-item-details-btn:hover{
+    color: white;
+    background-color: rgb(209, 146, 29);
+}
